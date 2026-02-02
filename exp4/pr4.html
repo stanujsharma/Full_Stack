@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Character Counter</title>
+    <link rel="stylesheet" href="pr4.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 style="color:white">Live Character Counter</h2>
+
+        <textarea id="textArea" placeholder="Type..." maxlength="50"></textarea>
+
+        <div class="counter" style="color:whitesmoke">
+            Characters: <span id="count">0</span>/50
+        </div>
+    </div>
+
+    <script>
+        const textArea = document.getElementById("textArea");
+        const count = document.getElementById("count");
+
+        textArea.addEventListener("input", () => {
+            count.innerText = textArea.value.length;
+        });
+    </script>
+
+</body>
+</html>
