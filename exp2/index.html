@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Banking Interface</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body><h2 style="text-align: center">Banking Interface</h2>
+        <div class="box">
+            <form>
+                <h3 style="text-align: center;">Balance: 60000</h3>
+                 <div class="amount">
+                     <label for="amount">Amount :</label>
+                     <input type="number" id="amount" name="amount" min="1" max="60000" required>
+                </div>
+
+                 <div class="btn">
+                     <label for="deposit">Deposit :</label>
+                     <input type="button" id="deposit" class="deposit" name="deposit" value="deposit" required>
+
+                     <label for="withdraw">Withdraw :</label>
+                     <input type="button" class="withdraw" id="withdraw" name="withdraw" value="withdraw" required>
+                 </div>
+                 <h5 style="color:rgb(246, 10, 10);">Invalid Amount!</h5>         
+             </form>
+        </div>
+    </body>
+</html>

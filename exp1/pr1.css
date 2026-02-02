@@ -1,0 +1,54 @@
+/* Basic reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0c0ce6;
+}
+
+/* Container */
+.container {
+    text-align: justify;
+    width: 370px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(64, 80, 228), rgb(125, 198, 215));
+    border-radius: 7px;
+}
+
+/* Heading */
+h2 {
+    text-align:center;
+    margin-bottom: 12px;
+}
+
+/*marquee */
+marquee{
+    color: gri;
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #13120c;
+    color: rgb(218, 214, 214);
+    border:black;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(250, 96, 245), rgb(27, 36, 37));
+}

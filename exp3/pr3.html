@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+
+
+  <link rel="stylesheet" href="pr3.css">
+
+  
+  <style>
+    h1 {
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Admin Dashboard</h1>
+    <button class="btn" onclick="toggleTheme()">Light Mode</button>
+  </div>
+
+  <div class="dashboard">
+
+    <div class="nav">
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('analytics')">Analytics</a>
+      <a onclick="showSection('users')">Users</a>
+      <a onclick="showSection('settings')">Settings</a>
+    </div>
+
+    <div>
+
+    
+      <div id="home" class="section active">
+        <div class="card" style="background:#4b5461;"> 
+          Welcome Admin
+        </div>
+      </div>
+
+      <div id="analytics" class="section">
+        <div class="card">Analytics Data</div>
+      </div>
+
+      <div id="users" class="section">
+        <div class="card">User List</div>
+      </div>
+
+      <div id="settings" class="section">
+        <div class="card">App Settings</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="pr3.js"></script>
+
+</body>
+</html>

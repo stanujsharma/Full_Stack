@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to right, rgb(126, 225, 96),rgb(202, 61, 61),red );
+    margin: 0;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    margin: 80px auto;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.amount label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.amount input{
+    width: 120px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.deposit{
+    background-color: black;
+    border-radius: 20px;
+    color:white;
+
+}
+
+.deposit:hover{
+    background-color: rgb(56, 240, 56);
+    border-radius: 20px;
+    color:white;
+}
+
+
+.withdraw{
+    background-color: black;
+    border-radius: 20px;
+    color:white;
+}
+
+.withdraw:hover{
+    background-color: red;
+    border-radius: 20px;
+    color:white;
+}

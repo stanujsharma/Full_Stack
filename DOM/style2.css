@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(to right, aquamarine,azure);
+}
+#heading{
+    text-decoration: dashed;
+    color:burlywood;
+    background-color: aliceblue;
+}
