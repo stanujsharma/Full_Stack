@@ -53,3 +53,16 @@ textarea:focus {
     font-weight: bold;
     color: #667eea;
 }
+
+.student-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    font-family: Arial;
+    font-size: 16px; 
+    line-height: 1.5; 
+    background: #fff;
+}
+
