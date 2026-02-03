@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product</title>
+    <!-- Link external CSS -->
+    <link rel="stylesheet" href="exp4.2.css">
+</head>
+
+<body>
+    <!-- Wrap select in a container for centering -->
+    <div class="dropdown-container">
+        <select id="sorter">
+            <option value="">Select</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-dsc">Price: High to Low</option>
+            <option value="rating-asc">Rating: Low to High</option>
+            <option value="rating-dsc">Rating: High to Low</option>
+        </select>
+    </div>
+
+    <table id="product_list"></table>
+
+    <script src="exp4.2.js"></script>
+</body>
+
+</html>
