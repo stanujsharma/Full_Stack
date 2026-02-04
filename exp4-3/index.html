@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="exp4-3.css">
+</head>
+<body>
+
+<h2>SVG Drawing Tool</h2>
+
+<div class="controls">
+    <label>Colour:</label>
+    <input type="color" id="colorPicker" value="#000000">
+
+    <label>Brush Size:</label>
+    <button onclick="changeSize(-1)">−</button>
+    <span id="sizeValue">8</span>
+    <button onclick="changeSize(1)">+</button>
+
+    
+    <input type="hidden" id="brushSize" value="8">
+
+    <button onclick="undo()">Undo</button>
+</div>
+
+
+<svg id="svgCanvas" viewBox="0 0 1000 600" preserveAspectRatio="none"></svg>
+
+<script src="exp4-3.js"></script>
+</body>
+</html>
